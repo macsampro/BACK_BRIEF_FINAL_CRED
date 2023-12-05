@@ -20,6 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/class-validator": "^0.13.4",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^10.0.0",
@@ -29,6 +30,7 @@
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/typeorm": "^10.0.0",
     "bcrypt": "^5.1.1",
+    "class-validators": "^1.0.1",
     "cors": "^2.8.5",
     "mysql2": "^3.6.2",
     "passport-jwt": "^4.0.1",
